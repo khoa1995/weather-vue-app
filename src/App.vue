@@ -1,12 +1,11 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/demo-vuex">Demo Vuex</router-link> |
-      <router-link to="/demo-vuetify">Demo Vuetify</router-link>
-    </div>
-    <router-view/>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Weather</a>
+      </nav>
+      <router-view/>
   </div>
+
 </template>
 
 <style lang="scss">
